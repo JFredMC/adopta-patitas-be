@@ -16,7 +16,6 @@ import { EmailsModule } from './email/emails.module';
 import { MailerModule } from '@nestjs-modules/mailer';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { PetsModule } from './modules/pets/pets.module';
-import { AboutUsModule } from './modules/about_us/about_us.module';
 import { DonateModule } from './modules/donate/donate.module';
 import { ContactUsModule } from './modules/contact_us/contact_us.module';
 import { AdoptionsModule } from './modules/adoptions/adoptions.module';
@@ -69,7 +68,6 @@ import { BreedsModule } from './modules/breeds/breeds.module';
     AuthModule,
     EmailsModule,
     PetsModule,
-    AboutUsModule,
     DonateModule,
     ContactUsModule,
     AdoptionsModule,
