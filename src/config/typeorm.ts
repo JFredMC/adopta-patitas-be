@@ -18,6 +18,7 @@ const configConnection = {
   migrationsRun: true,
   autoLoadEntities: `${process.env.AUTOLOADENTITIES}`,
   synchronize: true,
+  ssl: true,
 };
 
 export default registerAs('typeorm', () => configConnection);
